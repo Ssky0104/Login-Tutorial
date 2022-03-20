@@ -1,0 +1,11 @@
+#!F:/python/venv/Scripts/python.exe
+print("Content-type:text/html\r\n\r\n")
+print("<html>")
+print("<body>")
+print('<form action="/cgi-bin/cgi/form2.py" method="get">')
+print('Enter Username:<input type="text" name="txtuser"> <br/>')
+print('Enter Password:<input type="text" name="txtpass"  />')
+print('<input type="submit" value="submit"/>')
+print("</form>")
+print("</body>")
+print("</html>")
